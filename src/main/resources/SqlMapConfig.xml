@@ -13,11 +13,4 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		package：指定包名称来为该包下的po类声明别名，默认的别名就是类名（首字母大小写都可） -->
 		<package name="zhongqiu.spring_mybatis_demo.po" />
 	</typeAliases>
-
-	<!-- 加载映射文件 -->
-	<mappers>
-        <!-- <mapper resource="mybatis/sqlmap/User.xml" /> -->
-		<!-- 批量加载映射文件 -->
-		<package name="zhongqiu.spring_mybatis_demo.mapper" />
-	</mappers>
 </configuration>
